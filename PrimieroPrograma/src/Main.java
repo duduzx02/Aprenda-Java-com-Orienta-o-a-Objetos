@@ -8,7 +8,7 @@ public class Main {
         boolean includoNoPlano = true;
         double notaDoFilme = 8.1;
 
-        // Média calculada pelas 3 notas do Eduardo, Augusto e Lívia
+        // Médias calculada pelas 3 notas do Eduardo, Augusto e Lívia
         double media = (9.8 + 6.3 + 8.0) / 3;
         System.out.println(media);
         String sinopse = """
@@ -18,5 +18,8 @@ public class Main {
                 Ano de lançamento    
                 """ + anoDeLancamento;
         System.out.println(sinopse);
+
+        int classificao = (int) (media / 2);
+        System.out.println(classificao);
     }
 }
