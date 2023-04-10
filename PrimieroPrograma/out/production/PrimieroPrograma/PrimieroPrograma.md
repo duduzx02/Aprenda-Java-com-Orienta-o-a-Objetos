@@ -135,3 +135,15 @@ importante notar que, neste caso, a parte decimal será descartada e o valor atr
 - Abaixo tem uma tabela, onde você pode visualizar mais facilmente as conversões que são implícitas e as que 
 necessitam ser feitas de forma explícita.
 - ![img.png](img.png)
+
+# O que aprendemos construindo o catélodo de filmes:
+
+- A trabalhar com variáveis: recurso utilizado para armazenar valores em memória
+- Sobre tipos primitivos
+- - inteiros(byte, short, int e long);
+- - ponto flutuante(double e float);
+- - char: contém um único caractere;
+- - boolean recebe 2 valores: false e true;
+- Como representar textos em Java, utilizando a classe String;
+- A realizar **casting** de valores, para resolver situações de tipos incompatíveis no momento de realizar um 
+  cálculo ou atribuição de uma variável.
